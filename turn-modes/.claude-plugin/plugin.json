@@ -1,0 +1,17 @@
+{
+  "name": "turn-modes",
+  "version": "0.1.0",
+  "description": "Per-turn overrides by prompt prefix: _ runs the turn and its subagents on the cheap model, + at maximum effort",
+  "author": {
+    "name": "sassech"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cheapModel": {
+      "type": "string",
+      "title": "Cheap model",
+      "description": "Model a prompt starting with _ runs on (an alias such as haiku, or a full model id)",
+      "default": "haiku"
+    }
+  }
+}

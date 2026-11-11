@@ -1,0 +1,9 @@
+{
+  "name": "session-manager",
+  "version": "0.1.0",
+  "description": "/sessions: list, resume and delete the conversations of the current project",
+  "author": {
+    "name": "sassech"
+  },
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "sassech-plugins",
+  "owner": {
+    "name": "sassech"
+  },
+  "description": "Sassech's Claude Code plugins: a live session sidebar, inline image previews in the transcript, a /sessions manager to list, resume and delete conversations, and per-turn model and effort prefixes",
+  "plugins": [
+    {
+      "name": "session-sidebar",
+      "source": "./session-sidebar",
+      "description": "Live sidebar with session title, model, context, rate limits and MCP servers"
+    },
+    {
+      "name": "image-preview",
+      "source": "./image-preview",
+      "description": "Real image previews in the transcript for pasted images and images Claude reads (kitty graphics protocol)"
+    },
+    {
+      "name": "session-manager",
+      "source": "./session-manager",
+      "description": "/sessions: list, resume and delete the conversations of the current project"
+    },
+    {
+      "name": "turn-modes",
+      "source": "./turn-modes",
+      "description": "Per-turn overrides by prompt prefix: _ runs the turn and its subagents on the cheap model, + at maximum effort"
+    }
+  ]
+}

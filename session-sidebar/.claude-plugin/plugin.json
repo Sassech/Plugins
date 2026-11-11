@@ -1,0 +1,23 @@
+{
+  "name": "session-sidebar",
+  "version": "0.1.0",
+  "description": "Live sidebar with session title, model, context, rate limits and MCP servers",
+  "author": {
+    "name": "sassech"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "background": {
+      "type": "string",
+      "title": "Background",
+      "description": "Pane background: auto (the terminal's own, read from kitty), none (the theme's), or a hex color like #0d0f31",
+      "default": "auto"
+    },
+    "titleModel": {
+      "type": "string",
+      "title": "Title model",
+      "description": "Model that names a session from its first prompt (Haiku by default)",
+      "default": "haiku"
+    }
+  }
+}

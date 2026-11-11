@@ -1,0 +1,23 @@
+{
+  "name": "image-preview",
+  "version": "0.1.0",
+  "description": "Real image previews in the transcript for pasted images and images Claude reads (kitty graphics protocol)",
+  "author": {
+    "name": "sassech"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cellWidthPx": {
+      "type": "number",
+      "title": "Cell width (px)",
+      "description": "Width of one terminal cell in pixels: preview columns are derived from it, so the picture keeps its aspect",
+      "default": 10
+    },
+    "cellHeightPx": {
+      "type": "number",
+      "title": "Cell height (px)",
+      "description": "Height of one terminal cell in pixels: preview rows are derived from it, so the picture keeps its aspect",
+      "default": 20
+    }
+  }
+}
